@@ -1,0 +1,7 @@
+{
+  "username": "root",
+  "password": "dudrlf2517",
+  "database": "pas-back",
+  "host": "127.0.0.1",
+  "dialect": "mysql"
+}
