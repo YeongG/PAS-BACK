@@ -11,6 +11,9 @@ const sequelize = new Sequelize(
 );
 
 db.sequelize = sequelize;
-db.Sequelize = Sequelize;
+
+db.User = require("./User");
+
+db.User.init(sequelize);
 
 module.exports = db;
